@@ -29,4 +29,5 @@ WORKDIR /var/www/html
 RUN rm index.html
 COPY . /var/www/html
 
-RUN chmod -R 777 /var/www/html/pdf
+RUN chmod -R 777 /var/www/html/temp/html
+RUN chmod -R 777 /var/www/html/temp/pdf
